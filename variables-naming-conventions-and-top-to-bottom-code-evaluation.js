@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let shopper = "Alice";
+let totItems = 5;
+let amtSpent = 20;
+let store = "General Store";
+let foodItems = 3;
+let statement = shopper + " went to the " + store + ". She bought " + foodItems + " food items and " + (totItems - foodItems) + " miscellaneous items for $" + amtSpent + ".";
 
-console.log(d);
+console.log(statement);
